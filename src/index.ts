@@ -1,3 +1,5 @@
+import { JPath } from "./system/Path"
+
 /*
 
 Let's do this in an order, yeah?
@@ -19,4 +21,7 @@ last. I/O (terminal)
 
 */
 
-console.log(JPath.fromString("/"))
+console.log(JPath.fromString("/hello/world/funny.js").toString())
+console.log(JPath.fromString("helloworld/funny/.").toString())
+console.log(JPath.fromString("hello/world/funnyjs").toString())
+console.log(JPath.fromString("/test/.bashrc").toString())

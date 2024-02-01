@@ -1,3 +1,5 @@
+import { JPath } from "./Path";
+
 let lastUsedPid: number = 1; 
 
 enum ProcessType {
